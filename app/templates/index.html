@@ -1,14 +1,35 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <div>
-        <h1> </h1>
-    </div>
-    
-</body>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Open science thingy/sign in</title>
+    <link rel="stylesheet" href="openscience.css">
+    <script type="text/javascript" src='openscience.js'>
+
+    </script>
+  </head>
+  <body>
+
+<div id='signin'>
+  <button type="button" onclick='showForm_signin()' class='signin' name="button">Sign in </button>
+</div>
+
+<div id="Register">
+    <button type="button" onclick='showForm_signup()' class='signup' name="button">Register </button>
+</div>
+
+<form class="Signin_form" action="index.html" method="post">
+      <input type="name" name="Email" placeholder="Enter email">
+        <input type="password" name="password" placeholder="choose password">
+
+</form>
+
+<form class="Signup_form" action="index.html" method="post">
+  <input type="Fname" name="Fname" placeholder="enter first name">
+    <input type="Lname" name="LFname" placeholder='enter last name'>
+      <input type="name" name="Email" placeholder="Enter email">
+        <input type="password" name="password" placeholder="choose password">
+</form>
+  </body>
 </html>
+>>>>>>> bdab76b990cc3feba8631cf3fa12aaa3e04b94a7
